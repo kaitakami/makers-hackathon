@@ -21,7 +21,7 @@ export default function Home() {
           <div className="mt-4 md:mt-0">
             <h3 className="mb-4 text-4xl tracking-tight font-extrabold">Exclusively built for Makers Fellows.</h3>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-              Just like that forgotten shirt in your closet, we all have a project but we put it off until it is forgotten in a small space in our brain. Time to take this project into reality.
+              Just like that forgotten shirt in your closet, we all have a project but we put it off until it is forgotten in a small space in our brain. Time to turn this project into reality.
               <br />
               <br />
               <b><i>48 hours</i></b>.
