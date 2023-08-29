@@ -19,7 +19,7 @@ export default function Home() {
         <section id="join" className="min-h-screen flex flex-col justify-center">
           <Cta />
         </section>
-        <section id="timeline" className="flex flex-col justify-center max-w-4xl mx-auto min-h-screen items-center relative">
+        <section id="timeline" className="flex flex-col justify-center max-w-4xl mx-auto min-h-screen items-center relative px-4">
           <Timeline />
         </section>
       </main>
