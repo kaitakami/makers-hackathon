@@ -20,14 +20,14 @@ const Timeline = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         viewport={{ once: true }}
-        className="relative border-l border-gray-200 dark:border-gray-700"
+        className="relative border-l border-gray-200"
       >
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 28th, 2023</time>
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Announcing the Makers Hackathon</h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">You&apos;ve got 3 weeks to assemble your team, brainstorm an idea, and register for the hackathon. Remember, action speaks louder than words! Don&apos;t overthink, you can change your idea after registration.</p>
-          <Link href="https://chat.whatsapp.com/HC3ajlBUK11AbRSdzeC5Hk" target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Find your team<svg className="w-3 h-3 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <Link href="https://chat.whatsapp.com/HC3ajlBUK11AbRSdzeC5Hk" target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-emerald-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-emerald-700">Find your team<svg className="w-3 h-3 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
           </svg></Link>
         </li>
